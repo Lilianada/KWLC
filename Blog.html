@@ -2,10 +2,229 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------links------->
     <link rel="stylesheet" href="Blog.css">
+
+    <!-- iconfont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!--  -->
+    <title>Blog</title>
+
 </head>
+
 <body>
-   
+    <!-------Header--------->
+    <header>
+        <my-header></my-header>
+    </header>
+
+    <!-------Main Body--------->
+    <div class="main_container bd_container">
+        <div class="section_head">
+            <div class="title_head">
+               <h4><span>Blog Page</span></h4>
+               <div class="ellipse"></div>
+               <h4>Podcast</h4>
+            </div>
+            <div class="section_img"><i class="fa fa-list-ul" aria-hidden="true"></i></div>
+        </div>
+
+        <section class="blog_posts row">
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
+                <img class="soundcloud" src="images/soundcloud.svg" alt="">
+                <div class="soundcloud_player">
+                     <h4 class="sound_head">Open Prayer</h4>
+                    <p class="sound_text">Listen to the audio</p>
+                    <div class="music_player">
+                        <h4 class="figure">0.00</h4>
+                        <div class="play_buttons">
+                            <i class="fa fa-backward play" aria-hidden="true"></i>
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <i class="fa fa-forward play" aria-hidden="true"></i>
+                        </div>
+                        <h4 class="figure">5:23</h4>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-anna-shvets.png" alt="Blog Image">
+                <h5><span class="content_date">19.11.2021</span></h5>
+            </a>
+
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
+                <img class="soundcloud" src="images/soundcloud.svg" alt="">
+                <div class="soundcloud_player">
+                     <h4 class="sound_head">Open Prayer</h4>
+                    <p class="sound_text">Listen to the audio</p>
+                    <div class="music_player">
+                        <h5 class="figure">0.00</h5>
+                        <div class="play_buttons">
+                            <i class="fa fa-backward play" aria-hidden="true"></i>
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <i class="fa fa-forward play" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="figure">5:23</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-any-lane.png" alt="Blog Image">
+                <h5><span class="content_date">19.11.2021</span></h5>
+            </a>
+
+            <a href="" class="post_col">
+                <h4 class="section_subtitle">Easter Sunday</h4>
+                <p><span class="blog_span">By Green onwn</span></p>
+                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
+                    do eiusmo tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis 
+                </p>
+                <div class="read_more">
+                    <div class="line"></div>
+                    <h5>Read More</h5>
+                </div>
+            </a>
+
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-any-lane.png" alt="Blog Image">
+                <h5><span class="content_date">19.11.2021</span></h5>
+            </a>
+
+            <a href="" class="post_col">
+                <h4 class="section_subtitle">Christmas day</h4>
+                <p><span class="blog_span">By Green onwn</span></p>
+                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
+                    do eiusmo tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis 
+                </p>
+                <div class="read_more">
+                    <div class="line"></div>
+                    <h5>Read More</h5>
+                </div>
+            </a>
+
+            <a href="" class="post_col">
+                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
+                <img class="soundcloud" src="images/soundcloud.svg" alt="">
+                <div class="soundcloud_player">
+                     <h4 class="sound_head">Open Prayer</h4>
+                    <p class="sound_text">Listen to the audio</p>
+                    <div class="music_player">
+                        <h5 class="figure">0.00</h5>
+                        <div class="play_buttons">
+                            <i class="fa fa-backward play" aria-hidden="true"></i>
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                            <i class="fa fa-forward play" aria-hidden="true"></i>
+                        </div>
+                        <h5 class="figure">5:23</h5>
+                    </div>
+                </div>
+            </a>
+
+            <a href="" class="post_col">
+                <h4 class="section_subtitle">Christmas day</h4>
+                <p><span class="blog_span">By Green onwn</span></p>
+                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
+                    do eiusmo tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis 
+                </p>
+                <div class="read_more">
+                    <div class="line"></div>
+                    <h5>Read More</h5>
+                </div>
+            </a>
+        </section>
+
+        <div class="pages_button">
+            <a href="#" class="previous"><h5>Previous Page</h5></a>
+            <a href="#" class="next"><h5>Next Page</h5></a>
+        </div>
+    </div>
+
+    <footer class="footer_container">
+        <div class="footer_col">
+            <div class="footer_header logo_text">
+                <div class="footer_logo"><img src="images/KWLCLogo.svg" alt="KWLC Logo"></div>
+                <h5 class="section_subtitle">Kingdom Ways Living Church</h5>
+            </div>
+            <div class="contact_info">
+                <div class="contact_row">
+                    <label class="label_icon"><i class="fa fa-phone" aria-hidden="true"></i></label>
+                    <p class="contact_text">+ 234 70 433 2832</p> 
+                </div>
+               
+                <div class="contact_row">
+                    <label class="label_icon"><i class="fa fa-map-marker" aria-hidden="true"></i> </label>
+                    <p class="contact_text">24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London,Lagos</p>
+                </div>
+              
+                <div class="contact_row">
+                    <label class="label_icon"><i class="fa fa-envelope" aria-hidden="true"></i></label>
+                    <p class="contact_text">info@kwlchq.org</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_col">
+            <div class="footer_header">
+                <h4 class="section_title">Contact Us</h4>
+            </div>
+            <div class="contact_info">
+               <form action="">
+                   <input type="text" placeholder="Name" id="">
+                   <input type="email" placeholder="Email" id="">
+                   <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
+               </form>
+               <button class="button">Send</button>
+            </div>
+        </div>
+
+        <div class="footer_col">
+            <div class="footer_header">
+                <h4 class="section_title">Up coming Events</h4>
+            </div>
+
+            <div class="contact_col">
+               <h5>Weeding</h5>
+               <span class="contact_span">July 7 @ 8:00 am - 10:30 am</span>
+            </div>
+            <div class="contact_col">
+                <h5>Weeding</h5>
+                <span class="contact_span">July 7 @ 8:00 am - 10:30 am</span>
+             </div>
+             <div class="contact_col">
+                <h5>Weeding</h5>
+                <span class="contact_span">July 7 @ 8:00 am - 10:30 am</span>
+             </div>
+        </div>
+
+        <div class="footer_col">
+            <div class="footer_header">
+                <h4 class="section_title">Follow Us</h4>
+            </div>
+            <div class="contact_info txt_icons">
+               <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+               <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></p>
+            </div>
+        </div>
+        
+    </footer>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
