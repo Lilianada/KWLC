@@ -38,8 +38,8 @@
     :root {
         --font-max: 3.75rem;
         --font-midi: 3rem;
-        --font-mini: 1.875rem;
-        --font-reg: 1.25rem;
+        --font-mini: 1.5rem;
+        --font-reg: 1.125rem;
         --font-tiny: 1rem;
     }
 }
@@ -810,7 +810,7 @@ textarea{
     }
 
     .txt_icons {
-        width: 40%;
+        width: 80%;
     }
 
     .contact_span{
