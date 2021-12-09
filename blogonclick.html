@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------links------->
+    <link rel="stylesheet" href="Blog.css">
+
+    <!-- iconfont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <!--  -->
+    <title>Blog</title>
+
+</head>
+
+<body>
+    <!-------Header--------->
+    <header>
+        <my-header></my-header>
+    </header>
+
+    <!-------Main Body--------->
+    <div class="main_container">
+        <div class="section_head">
+            <div class="title_head">
+               <h4><span>Blog Page</span></h4>
+               <div class="ellipse"></div>
+               <h4>Podcast</h4>
+            </div>
+            <div class="section_img"><i class="fa fa-list-ul" aria-hidden="true"></i></div>
+        </div>
+
+        <section class="blog_grid">
+            <article class="blog_article">
+                <div class="blogpost_col">
+                    <img class="blog_img" src="images/pexels-anna-shvets.png" alt="Blog Image">
+                    <span class="content_date"><h5>19.11.2021</h5></span>
+                </div>
+                <div class="blogpost_content">
+                    <div class="blogpost_title">
+                        <h3 class="section_title">Easter Sunday</h3>
+                        <p><span class="small_text">By Pastor ken</span></p>
+                    </div>
+                    <p class="paragraph">
+                        Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                        velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut 
+                        aliquip ex ea commodo consequat. <br>
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing 
+                        elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                        nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <blockquote>
+                        “ Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim”
+                    </blockquote>
+                    <p class="paragraph">
+                        Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat
+                    </p>
+                    <div class="blogpost_img">
+                        <div class="img_col"><img src="images/pexels-cottonbro-3972000.png" alt=""></div>
+                        <div class="img_col"><img src="images/pexels-cottonbro-3972178.png" alt=""></div>
+                    </div>
+                    <p class="paragraph">
+                        Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat
+                    </p>
+                </div>
+            </article>
+
+            <aside class="sidebar">
+                <div class="sidebar_content">
+                    <div class="search_bar">
+                        <label class="search_icon"><i class="fa fa-search" aria-hidden="true"></i></label>
+                        <input type="text" placeholder="Search service" id="search">
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <div class="pages_button">
+            <a href="#" class="previous"><h5>Previous Page</h5></a>
+            <a href="#" class="next"><h5>Next Page</h5></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <my-footer></my-footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
