@@ -698,7 +698,7 @@ footer{
 }
 
 .footer_col{
-    margin: 1rem 1rem 0 1rem;
+    margin: 1rem 2rem 0 1rem;
 }
 
 .footer_header{
@@ -748,6 +748,7 @@ input, textarea{
     margin-bottom: 1rem;
     border: none;
     padding: .75rem 1rem;
+    outline: none ;
 }
 
 textarea{
@@ -845,7 +846,7 @@ textarea{
 }
 
 .blogpost_title{
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .blogpost_title .section_title{
@@ -857,9 +858,9 @@ textarea{
 }
 
 .blogpost_col .content_date{
-    bottom: 10.4375rem;
-    left: .9375rem;
-    padding: .2rem .4rem;
+    bottom: 13.4375rem;
+    left: .5375rem;
+    padding: .2rem .5rem;
 }
 
 .small_text{
@@ -891,6 +892,7 @@ blockquote{
     padding: 0 .75rem;
     border: 2px #000000 solid;
     border-radius: .625rem;
+    width: 50vw;
 }
 
 .search_icon .fa{
@@ -903,8 +905,15 @@ blockquote{
 .search_bar input{
     outline: none;
     padding: .75rem;
+    width: 100%;
     margin: 0;
     color: var(--text-primary-color);
+}
+
+@media screen and (min-width: 700px) {
+    .blogpost_col h5{
+        font-size: var(--font-reg);
+    }
 }
 
 
@@ -918,8 +927,12 @@ blockquote{
     }
 
     .blogpost_col .content_date{
-        bottom: 31.4375rem;
-        left: 0rem;
-        padding: 1rem .75rem
+        bottom: 4.85rem;
+        left: -.5rem;
+        padding: .5rem .75rem;
+    }
+
+    .search_bar{
+        width: 100%;
     }
 }
