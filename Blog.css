@@ -481,6 +481,7 @@ span{
         display: flex;
         width: 60vw;
         justify-content: space-between;
+        align-items: center;
     }
 
     .nav_item{
@@ -858,6 +859,7 @@ textarea{
 }
 
 .blogpost_col .content_date{
+    position: absolute;
     bottom: 13.4375rem;
     left: .5375rem;
     padding: .2rem .5rem;
@@ -867,13 +869,49 @@ textarea{
     font-style: italic;
 }
 
+/* Text Paragraph */
 .paragraph{
     text-align: justify;
+    padding: 1rem 0;
 }
 
+/* Colored Blockquote */
 blockquote{
     color: var(--card-primary-color);
-    padding: 1rem 0;
+    padding: 2rem 0;
+}
+
+/* Tags */
+.tags{
+    display: flex;
+    align-items: center;
+}
+
+.tags p{
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+/* Content Publisher */
+.content_publisher{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.content_publisher img, .author_col img{
+    width: 10.125rem;
+    height: 9.875rem;
+}
+
+.publisher_info{
+    margin-left: 2rem;
+}
+
+.grey_text{
+    color: #949494;
 }
 
 .blogpost_img{
@@ -885,6 +923,10 @@ blockquote{
     margin-right: 1rem;
 }
 
+/*--------------- [SIDEBAR] -------------*/
+.sidebar{
+    padding: 1rem;
+}
 
 /* SEARCH BAR */
 .search_bar{
@@ -892,7 +934,6 @@ blockquote{
     padding: 0 .75rem;
     border: 2px #000000 solid;
     border-radius: .625rem;
-    width: 50vw;
 }
 
 .search_icon .fa{
@@ -910,16 +951,52 @@ blockquote{
     color: var(--text-primary-color);
 }
 
+/* AUTHOR COL */
+.author_col{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+
+.signature img{
+    width: 14.125rem;
+    height: 3.0625rem;
+}
+
+.author_bio{
+    margin-top: 1rem;
+}
+
+/* Side Containers */
+.side_containers{
+    margin: 2rem 0;
+}
+
+.side_containers li, .side_containers span{
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.side_containers label{
+    font-weight: var(--font-semi);
+}
+
 @media screen and (min-width: 700px) {
     .blogpost_col h5{
         font-size: var(--font-reg);
+    }
+
+    .blogpost_col .content_date{
+        bottom: 7.85rem;
+        left: -.5rem;
+        padding: .75rem 1rem;
     }
 }
 
 
 @media screen and (min-width: 900px) {
     .blog_grid{
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 2fr 1fr;
     }   
 
     .blogpost_col h5{
@@ -929,10 +1006,7 @@ blockquote{
     .blogpost_col .content_date{
         bottom: 4.85rem;
         left: -.5rem;
-        padding: .5rem .75rem;
+        padding: .75rem 1rem;
     }
 
-    .search_bar{
-        width: 100%;
-    }
 }
