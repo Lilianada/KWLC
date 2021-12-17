@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!------links------->
-    <link rel="stylesheet" href="Blog.css">
+    <link rel="stylesheet" href="events.css">
 
     <!-- iconfont -->
     <link rel="stylesheet" href="icofont/icofont.min.css">
@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
     <!--  -->
-    <title>Blog</title>
+    <title>Events</title>
 
 </head>
 
@@ -26,137 +26,163 @@
         <my-header></my-header>
     </header>
 
-    <!-------Main Body--------->
+    <!-- Main Container -->
     <div class="main_container">
-        <div class="section_head">
-            <div class="title_head">
-               <h4><span>Blog Page</span></h4>
-               <div class="ellipse"></div>
-               <h4>Podcast</h4>
+        <h2 class="section_title">
+            Events For 14. 10. 2022
+        </h2>
+
+        <!-- Event Searcher -->
+        <div class="event_search">
+            <div class="search">
+                <Label>DAY OF</Label>
+                <input class="event_searcher" type="datetime" name="date" id="date">
             </div>
-            <div class="section_img"><i class="fa fa-list-ul" aria-hidden="true"></i></div>
+            <div class="search">
+                <label>Search</label>
+                <input class="event_searcher" type="search" name="search" id="search">
+            </div>
+
+            <a class="button" href="#">Find Event</a>
         </div>
 
-        <section class="blog_posts row">
-            <a href="" class="post_col">
-                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
-                <img class="soundcloud" src="images/soundcloud.svg" alt="">
-                <div class="soundcloud_player">
-                     <h4 class="sound_head">Open Prayer</h4>
-                    <p class="sound_text">Listen to the audio</p>
-                    <div class="music_player">
-                        <h4 class="figure">0.00</h4>
-                        <div class="play_buttons">
-                            <i class="fa fa-backward play" aria-hidden="true"></i>
-                            <i class="fa fa-play" aria-hidden="true"></i>
-                            <i class="fa fa-forward play" aria-hidden="true"></i>
+        <!-- Container -->
+        <section class="event_list">
+            <div class="intro">
+                <strong>VIEW AS :</strong>   <h5><span>List</span></h5>      <h5><span>Months</span></h5>        <h5>Day</h5>
+            </div>
+
+            <div class="event_time">
+                <h3 class="section_subtitle">8:00 AM</h3>
+            </div>
+
+            <div class="event_list">
+                <div class="list_col grid">
+                    <div class="post_col" style="background: url(images/pexels-luis.png); background-size: cover;">
+                        <h5><span class="content_date">Price: Free</span></h5>
+                    </div>
+
+                    <div class="list_text">
+                        <h3 class="section_subtitle">
+                            Youth Empowerment Program
+                        </h3>
+
+                        <div class="col">
+                            <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <p>14. 10. 2022.</p>
                         </div>
-                        <h4 class="figure">5:23</h4>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p style="text-transform: uppercase;">Kingdom Ways Living Church</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London,Lagos</p>
+                        </div>
+                        <div class="col">
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo </p>
+                        </div>
+                        <div class="col">
+                            <div class="read_more">
+                                <div class="line_bar"></div>
+                                <h5>Read More</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </a>
+                
+                <div class="list_col grid">
+                    <div class="post_col" style="background: url(images/pexels-icsa.png); background-size: cover;">
+                        <h5><span class="content_date">Price: Free</span></h5>
+                    </div>
+                    
+                    <div class="list_text">
+                        <h3 class="section_subtitle">
+                            Youth Empowerment Program
+                        </h3>
 
-            <a href="blogonclick.html" class="post_col">
-                <img class="blog_img" src="images/pexels-anna-shvets.png" alt="Blog Image">
-                <h5><span class="content_date">19.11.2021</span></h5>
-            </a>
-
-            <a href="" class="post_col">
-                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
-                <img class="soundcloud" src="images/soundcloud.svg" alt="">
-                <div class="soundcloud_player">
-                     <h4 class="sound_head">Open Prayer</h4>
-                    <p class="sound_text">Listen to the audio</p>
-                    <div class="music_player">
-                        <h5 class="figure">0.00</h5>
-                        <div class="play_buttons">
-                            <i class="fa fa-backward play" aria-hidden="true"></i>
-                            <i class="fa fa-play" aria-hidden="true"></i>
-                            <i class="fa fa-forward play" aria-hidden="true"></i>
+                        <div class="col">
+                            <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <p>14. 10. 2022.</p>
                         </div>
-                        <h5 class="figure">5:23</h5>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p style="text-transform: uppercase;">Kingdom Ways Living Church</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London,Lagos</p>
+                        </div>
+                        <div class="col">
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo </p>
+                        </div>
+                        <div class="col">
+                            <div class="read_more">
+                                <div class="line_bar"></div>
+                                <h5>Read More</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </a>
 
-            <a href="" class="post_col">
-                <img class="blog_img" src="images/pexels-any-lane.png" alt="Blog Image">
-                <h5><span class="content_date">19.11.2021</span></h5>
-            </a>
+                <div class="list_col grid">
+                    <div class="post_col" style="background: url(images/pexels-anton.png); background-size: cover;">
+                        <h5><span class="content_date">Price: Free</span></h5>
+                    </div>
+                    
+                    <div class="list_text">
+                        <h3 class="section_subtitle">
+                            Youth Empowerment Program
+                        </h3>
 
-            <a href="" class="post_col">
-                <h4 class="section_subtitle">Easter Sunday</h4>
-                <p><span class="blog_span">By Green onwn</span></p>
-                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmo tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis 
-                </p>
-                <div class="read_more">
-                    <div class="line"></div>
-                    <h5>Read More</h5>
-                </div>
-            </a>
-
-            <a href="" class="post_col">
-                <img class="blog_img" src="images/pexels-any-lane.png" alt="Blog Image">
-                <h5><span class="content_date">19.11.2021</span></h5>
-            </a>
-
-            <a href="" class="post_col">
-                <h4 class="section_subtitle">Christmas day</h4>
-                <p><span class="blog_span">By Green onwn</span></p>
-                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmo tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis 
-                </p>
-                <div class="read_more">
-                    <div class="line"></div>
-                    <h5>Read More</h5>
-                </div>
-            </a>
-
-            <a href="" class="post_col">
-                <img class="blog_img" src="images/pexels-josh-sorenson.png" alt="Blog Image">
-                <img class="soundcloud" src="images/soundcloud.svg" alt="">
-                <div class="soundcloud_player">
-                     <h4 class="sound_head">Open Prayer</h4>
-                    <p class="sound_text">Listen to the audio</p>
-                    <div class="music_player">
-                        <h5 class="figure">0.00</h5>
-                        <div class="play_buttons">
-                            <i class="fa fa-backward play" aria-hidden="true"></i>
-                            <i class="fa fa-play" aria-hidden="true"></i>
-                            <i class="fa fa-forward play" aria-hidden="true"></i>
+                        <div class="col">
+                            <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <p>14. 10. 2022.</p>
                         </div>
-                        <h5 class="figure">5:23</h5>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p style="text-transform: uppercase;">Kingdom Ways Living Church</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London,Lagos</p>
+                        </div>
+                        <div class="col">
+                            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo </p>
+                        </div>
+                        <div class="col">
+                            <div class="read_more">
+                                <div class="line_bar"></div>
+                                <h5>Read More</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </a>
 
-            <a href="" class="post_col">
-                <h4 class="section_subtitle">Christmas day</h4>
-                <p><span class="blog_span">By Green onwn</span></p>
-                <p class="text_secondary">Dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmo tempor incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis 
-                </p>
-                <div class="read_more">
-                    <div class="line"></div>
-                    <h5>Read More</h5>
-                </div>
-            </a>
+            </div>
         </section>
 
         <div class="pages_button">
-            <a href="#" class="previous"><h5>Previous Page</h5></a>
             <a href="#" class="next"><h5>Next Page</h5></a>
         </div>
     </div>
-
+    
+    
+    
     <!-- Footer -->
     <my-footer></my-footer>
-
-
     <script src="script.js"></script>
 </body>
 </html>
