@@ -666,12 +666,11 @@ p .blog_span{
         bottom: 3.375rem;
     }
 
-    
-.soundcloud{
-    position: absolute;
-    left: .9375rem;
-    bottom: 13.375rem;
-}
+    .soundcloud{
+        position: absolute;
+        left: .9375rem;
+        bottom: 13.375rem;
+    }
 
     .read_more{
         width: 35%;
