@@ -152,3 +152,22 @@ class myFooter extends HTMLElement{
 
 customElements.define('my-footer', myFooter)
 
+
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "See More";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "See Less";
+      btnText.style.color = "#77B6D5";
+      btnText.style.fontWeight = "700";
+      moreText.style.display = "inline";
+    }
+  }

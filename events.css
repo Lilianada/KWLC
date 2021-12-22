@@ -513,6 +513,7 @@ span{
     }
 
 }
+
 /*========================================*/
 /*--------------- [_Main] -------------*/
 /*========================================*/
@@ -520,12 +521,13 @@ span{
     display: grid;
     grid-template-columns: 1fr;
     max-width: 100vw;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 
 .main_container .section_title{
     margin-top: 4rem;
+    padding: 2rem;
 }
 
 
@@ -554,6 +556,7 @@ span{
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
+    padding: 2rem;
 }
 
 .search{
@@ -581,12 +584,17 @@ span{
 }
 
 /*  */
+.event_list{
+    padding: 2rem;
+}
+
 .intro{
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
     margin-top: 2rem;
+
 }
 
 .list_text .section_subtitle{
@@ -683,7 +691,7 @@ footer{
 }
 
 .footer_col{
-    margin: 1rem 2rem 0 1rem;
+    margin: 1rem 2rem 1rem 1rem;
 }
 
 .footer_header{
@@ -818,3 +826,4 @@ textarea{
     }
 
 }
+
