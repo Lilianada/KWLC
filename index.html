@@ -25,9 +25,69 @@
 
 <body>
     <!-------Header--------->
-        <my-header></my-header>
+        <header class="header_wrap header_alt" id="header">
+            <div class="top_navbar">
+                <div class="top_right">
+                    <p>Follow us
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-facebook-f" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="top_left">
+                    <p>Call us: +234 70 433 2832</p>
+                </div>
+            </div>
+            <hr>
+            <!-- navigation menu -->
+            <nav class="nav_bar">
+                <a href="#" class="nav-logo"><img src="images/KWLClogo.svg" alt="KWLC Logo"></a>
+                <!----------Navigation Links--------->
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item"><button class="btn"> <i class="fa fa-gift" aria-hidden="true"></i>Donate</button></li>
+                        <li class="nav_item"><a href="index.html" class="nav_link txt_white">Home</a></li>
+                        <li class="nav_item"><a href="pages.html" class="nav_link txt_white">Pages</a></li>
+                        <li class="nav_item"><a href="indexDonate.html" class="nav_link txt_white">Donations</a></li>
+                        <li class="nav_item"><a href="#" class="nav_logo"><img src="images/KWLClogo.svg" alt="KWLC Logo"></a></li>
+                        <li class="nav_item"><a href="events.html" class="nav_link txt_white">Events</a></li>
+                        <li class="nav_item"><a href="blog.html" class="nav_link txt_white">Blog</a></li>
+                        <li class="nav_item"><a href="shop.html" class="nav_link txt_white">Shop</a></li>
+                        <li class="nav_item"><a href="cart.html" class="nav_link txt_white"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                        <li class="nav_item"><a href="search" class="nav_link txt_white"><i class="fa fa-search" aria-hidden="true"></i></i></a></li>
+                        <div class="nav_item">
+                            <div class="dropdown">
+                                <div class="nav_tog">
+                                    <div class="bar b1 bg_white" id="bar1"></div>
+                                    <div class="bar b2 bg_white" id="bar2"></div>
+                                    <div class="bar b3 bg_white" id="bar3"></div>
+                                </div>
+                                <input class="drop_input" id="toggle" type="checkbox" checked>
+                                <ul class="dropdown_contents">
+                                    <li class="dropdown_menu"><a href="about.html" class="txt_white nav_link">About us</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="txt_white nav_link">Our Team</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="txt_white nav_link">Our Beliefs</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="txt_white nav_link">Our Community</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="txt_white nav_link">Branches</a></li>
+                                    <li class="dropdown_menu"><a href="#" class="txt_white nav_link">Payment page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
+                <!-------Menu bars-------->
+                <div class="nav_toggle" onclick="onClickMenu()" id="nav-toggle">
+                    <div class="bar bg_white b1" id="bar1"></div>
+                    <div class="bar bg_white b2" id="bar2"></div>
+                    <div class="bar bg_white b3" id="bar3"></div>
+                </div>
+            </nav>
+        </header>
+   
     <!-------Main Body--------->
-    <div class="main_container">
+    <div class="main_container home-container">
 
         <!-- Hero-banner-area-start -->
 
