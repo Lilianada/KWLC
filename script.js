@@ -31,8 +31,8 @@ class myHeader extends HTMLElement{
                         <ul class="nav_list">
                             <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
                             <li class="nav_item"><a href="pages.html" class="nav_link">Pages</a></li>
-                            <li class="nav_item"><a href="dponations.html" class="nav_link">Donations</a></li>
-                            <li class="nav_item"><a href="event.html" class="nav_link">Events</a></li>
+                            <li class="nav_item"><a href="indexDonate.html" class="nav_link">Donations</a></li>
+                            <li class="nav_item"><a href="events.html" class="nav_link">Events</a></li>
                             <li class="nav_item"><a href="blog.html" class="nav_link">Blog</a></li>
                             <li class="nav_item"><a href="shop.html" class="nav_link">Shop</a></li>
                             <li class="nav_item"><a href="cart.html" class="nav_link"><i class="icofont-shopping-cart"></i></a></li>
@@ -49,8 +49,8 @@ class myHeader extends HTMLElement{
                                         <li class="dropdown_menu"><a href="#" class="nav_link">Our Team</a></li>
                                         <li class="dropdown_menu"><a href="#" class="nav_link">Our Beliefs</a></li>
                                         <li class="dropdown_menu"><a href="#" class="nav_link">Our Community</a></li>
-                                        <li class="dropdown_menu"><a href="#" class="nav_link">Branches</a></li>
-                                        <li class="dropdown_menu"><a href="#" class="nav_link">Payment page</a></li>
+                                        <li class="dropdown_menu"><a href="branch.html" class="nav_link">Branches</a></li>
+                                        <li class="dropdown_menu"><a href="payment.html" class="nav_link">Payment page</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -149,7 +149,6 @@ class myFooter extends HTMLElement{
         `
     }
 }
-
 customElements.define('my-footer', myFooter)
 
 

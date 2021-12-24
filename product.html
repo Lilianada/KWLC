@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!------links------->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="Blog.css"> -->
+
+    <!-- iconfont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="icofont/fontawesome-all.min" />
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/14e27cb49a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  -->
+    <title>KINGDOM WAYS</title>
+  </head>
+  <body>
+     <!-- Header -->
+      <my-header></my-header>
+
+    <div class="productLanding">
+      <div class="shopNow">Shop Now</div>
+
+      <div class="row">
+        <div class="column first">
+          <img
+            style="margin-bottom: 10px"
+            src="product-6-768x988.png"
+            alt=""
+          />
+          <img
+            style="margin-bottom: 20px"
+            src="product-5-600x772.png"
+            alt=""
+          />
+          <img src="product-4-600x772.png" alt="" />
+        </div>
+        <div class="column second">
+          <img src="product-4-600x772.png" alt="" />
+        </div>
+        <div class="column third">
+          <div class="aboutProduct">
+            <h4>Listen Belive</h4>
+            <div class="price">Price: <span>N150</span></div>
+            <div class="about">
+              Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            </div>
+            <div class="copies">500 copies available</div>
+            <div class="select">
+              <form action="">
+                Quantity <i class="fas fa-chevron-left"> </i> 
+                <span>1</span
+                ><i class="fas fa-chevron-right"></i>
+              </form>
+              <button class="button">Purchase</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="moreInfo">
+      <div class="tabs">
+          <div class="tablinks" onclick="opentab(event, 'Discription')">Discription</div>
+          <div class="tablinks" onclick="opentab(event, 'AdditionalInformation')">Additional Information</div>
+      </div>
+
+        <div id="Discription" class="tabcontent">
+            <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+          </div>
+          <div id="AdditionalInformation" class="tabcontent">
+            <div class="more">
+                <div class="type">WEIGHT:</div>
+                <div class="info">1Kg</div>
+            </div>
+            <div class="more">
+                <div class="type">DIMENTION:</div>
+                <div class="info">15 x 15 x15 mm</div>
+            </div>
+          </div>
+     </div>
+
+      <div class="row">
+        <div class="relatedProduct">Related Product</div>
+        <div class="products">
+          <div class="product">
+            <img src="product-5-600x772.png" alt="" />
+            <button class="button">Add to Cart</button>
+            <h4>LISTEN BELIEVE</h4>
+            <div class="price">Price <span>N150</span></div>
+          </div>
+          <div class="product">
+            <img src="product-5-600x772.png" alt="" />
+            <button class="button">Add to Cart</button>
+            <h4>LISTEN BELIEVE</h4>
+            <div class="price">Price <span>N150</span></div>
+          </div>
+          <div class="product">
+            <img src="product-5-600x772.png" alt="" />
+            <button class="button">Add to Cart</button>
+            <h4>LISTEN BELIEVE</h4>
+            <div class="price">Price <span>N150</span></div>
+          </div>
+          <div class="product">
+            <img src="product-5-600x772.png" alt="" />
+            <button class="button">Add to Cart</button>
+            <h4>LISTEN BELIEVE</h4>
+            <div class="price">Price <span>N150</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Footer -->
+     <my-footer></my-footer>
+    <script src="script.js"></script>
+  </body>
+</html>

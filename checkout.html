@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!------links------->
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="Blog.css"> -->
+
+    <!-- iconfont -->
+    <link rel="stylesheet" href="icofont/icofont.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="icofont/fontawesome-all.min" />
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/14e27cb49a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  -->
+    <title>KINGDOM WAYS</title>
+  </head>
+
+  <body>
+     <!-- Header -->
+     <my-header></my-header>
+
+    <div class="checkout">
+      <div class="check">Checkout</div>
+      <div class="row">
+        <form action="">
+          <div class="column">
+            <h3>BILLING DETAILS</h3>
+            <div class="name">
+              <div class="firstName">
+                <label for="">Fist Name</label>
+                <input type="text" />
+              </div>
+              <div class="lastName">
+                <label for="">Last Name</label>
+                <input type="text" />
+              </div>
+            </div>
+            <label for="">Country</label>
+            <select name="" id="">
+              <option value="">Nigeria</option>
+              <option value="">Ghana</option>
+              <option value="">Mali</option>
+            </select>
+            <label for="">Street Address</label>
+            <input type="text" placeholder="House Number and Street name" />
+            <input type="text" placeholder="Apartment Number" />
+            <label for="">Town/City</label>
+            <input type="text" />
+            <label for="">State</label>
+            <select name="" id="">
+              <option value="">Osun</option>
+              <option value="">Adamawa</option>
+              <option value="">Lagos</option>
+            </select>
+            <label for="">Phone</label>
+            <input type="text" />
+            <label for="email">Email</label>
+            <input type="text" />
+          </div>
+          <div class="column">
+            <h3>SHIP TO A DIFFERENT ADDRESS</h3>
+            <label for="">Order Note (Optional)</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+       
+          <div class="yourOrder">
+            <h3>Your Order</h3>
+            <table id="yourOrder">
+                <tr>
+                    <th>PRODUCT</th>
+                    <th>AMOUNT</th>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;">Listen Belive</td>
+                    <td>N 500</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;">SUBTOTAL</td>
+                    <td>N 500</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;">SHIPPING</td>
+                    <td>Flat Rate: N 500</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 600;">Total</td>
+                    <td style="font-weight: 600;">N 1000</td>
+                </tr>
+            </table>
+          </div>
+          <button class="button">Place Order</button>
+        </form>
+      </div>
+
+    </div>
+    
+    <!-- Footer -->
+     <my-footer></my-footer>
+     
+
+    <script src="script.js"></script>
+  </body>
+</html>
