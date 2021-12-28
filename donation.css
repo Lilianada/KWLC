@@ -562,7 +562,7 @@ hr{
     }
 
     .nav-list .dropdown_contents{
-        right: 2rem;
+        right: 5rem;
         top: 7.75rem;
     }
 
@@ -594,7 +594,7 @@ hr{
     }
 
     .dropdown_contents {
-        right: 3rem;
+        right: 2rem;
         top: 4.2rem;
         background: #F1F1F1;
         padding: 1rem;
@@ -609,6 +609,10 @@ hr{
 
     .nav-list .dropdown_menu .nav_link{
         color: var(--text-primary-color);
+    }
+
+    .nav-list .dropdown_menu .nav_link:hover{
+        color: var(--text-card-color);
     }
 
     .nav_tog .bar{
@@ -1268,22 +1272,6 @@ section {
 /*================= Branch page========== */
 
 /* ===========Hero banner area=========== */
-
-/* .branch .hero-banner-area {
-    height: 70vh !important;
-}
-
-.branch .hero-banner-area {
-    width: 100vw;
-    height: 50vh !important;
-    position: relative;
-}
-
-.branch .hero-banner-area-text {
-    width: 50% !important;
-    font-size: var(--font-reg) !important;
-} */
-
 
 /*-------- hero-content section ---------*/
 
@@ -2056,11 +2044,6 @@ section {
     margin-top: 0.5rem !important;
 }
 
-/* .eachBranch .hero-banner-area {
-    width: 100vw;
-    height: 50vh !important;
-    position: relative;
-} */
 
 .eachBranch .hero-banner-area-text {
     font-size: var(--font-reg) !important;
@@ -2088,10 +2071,6 @@ section {
 .eachBranch .w-100 {
     width: 100% !important;
 }
-
-/* .eachBranch .row .col:first-of-type {
-    margin-right: 5rem;
-} */
 
 .eachBranch .profile .image {
     width: 100%;
@@ -2222,7 +2201,7 @@ section {
 }
 
 .eachBranch .align-center .inline:last-of-type {
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 .eachBranch .justify-start {
@@ -2237,9 +2216,6 @@ section {
     height: auto;
 }
 
-.eachBranch .map {
-    margin-bottom: 5rem;
-}
 
 .eachBranch .cards {
     padding: 1rem 2rem;
@@ -2333,10 +2309,9 @@ section {
         flex-direction: column;
         padding: 1rem 2rem;
     }
-    .eachBranch .card.row .image {
-        margin-bottom: 0.5rem;
-        margin-right: 0;
-        margin-top: 1rem;
+    .eachBranch .flex-column-sm .w-50 .image {
+        margin: 0 auto;
+        margin-bottom: 1rem;       
     }
     .eachBranch .card.row span {
         width: 100%;
@@ -2363,6 +2338,10 @@ section {
     }
     .eachBranch .align-center .inline:last-of-type {
         margin-left: 1rem;
+    }
+    .eachBranch .flex-column-sm .w-50 .image {
+        margin: 0 auto;
+        margin-bottom: 1rem;       
     }
 }
 

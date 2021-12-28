@@ -30,7 +30,7 @@ class myHeader extends HTMLElement{
                     <div class="nav_menu" id="nav-menu">
                         <ul class="nav_list">
                             <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
-                            <li class="nav_item"><a href="pages.html" class="nav_link">Payment</a></li>
+                            <li class="nav_item"><a href="payment.html" class="nav_link">Payment</a></li>
                             <li class="nav_item"><a href="indexDonate.html" class="nav_link">Donations</a></li>
                             <li class="nav_item"><a href="events.html" class="nav_link">Events</a></li>
                             <li class="nav_item"><a href="blog.html" class="nav_link">Blog</a></li>

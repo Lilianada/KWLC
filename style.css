@@ -666,13 +666,11 @@ hr{
 
 .blog_posts .post_col{
     width: 17rem;
-    position: relative;
     margin: 1rem;
 }
 
 .blog_img{
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px);
+    position: relative;
     width: 100%;
 }
 
@@ -682,7 +680,7 @@ hr{
     padding: .2rem .875rem;
     color: var(--text-primary-color);
     background: var(--white-color);
-    left: -2.1875rem;
+    left: -.5rem;
     bottom: 4.4375rem;
     transform: rotate(270deg);
 }
@@ -975,8 +973,8 @@ textarea{
 
 .blogpost_col .content_date{
     position: absolute;
-    bottom: 13.4375rem;
-    left: .5375rem;
+    bottom: 11.85rem;
+    left: .5rem;
     padding: .2rem .5rem;
 }
 
@@ -1050,6 +1048,7 @@ blockquote{
     padding: 0 .75rem;
     border: 2px #000000 solid;
     border-radius: .625rem;
+    z-index: -1;
 }
 
 .search_icon .fa{
@@ -1103,7 +1102,7 @@ blockquote{
     }
 
     .blogpost_col .content_date{
-        bottom: 7.85rem;
+        bottom: 0.85rem;
         left: -.5rem;
         padding: .75rem 1rem;
     }
@@ -1120,7 +1119,7 @@ blockquote{
     }
 
     .blogpost_col .content_date{
-        bottom: 4.85rem;
+        bottom: 14.85rem;
         left: -.5rem;
         padding: .75rem 1rem;
     }

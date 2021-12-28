@@ -23,9 +23,7 @@
 
 <body class="donate">
     <!-- Header -->
-    <header>
         <my-header></my-header>
-    </header>
 
     <div class="hero-banner-area">
         <img src="images/donation-hero-banner.png" alt="" />
@@ -52,10 +50,10 @@
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="btn-container">
-                    <button id="donate">
-              <img src="images/donate-icon.svg" alt="" srcset="" />
-              Donate
-            </button>
+                    <button class="button" id="donate">
+                        <img src="images/donate-icon.svg" alt="" srcset="" />
+                        Donate
+                    </button>
                     <button>Share</button>
                 </div>
             </div>
@@ -111,7 +109,8 @@
             </div>
         </div>
     </section>
-    <div class="modal" id="modal">
+
+    <section class="modal" id="modal">
         <form id="form">
             <div id="main-content">
                 <div id="">
@@ -162,40 +161,44 @@
                         </div>
                     </div>
 
-                <div class="row mt-2">
-                    <div class="payment">
-                        <span>Donation Amount:</span> <span>#1,000</span>
+                    <div class="row mt-2">
+                        <div class="payment">
+                            <span>Donation Amount:</span> <span>#1,000</span>
+                        </div>
                     </div>
-                </div>
-                <div class="btn-container">
-                    <button id="submit-donation">
-                        <img src="images/donate-icon.svg" alt="" srcset="" />
-                        Donate
-                    </button>
-                </div>
-            <!-- </div> -->
-                <div id="success__modal" class="success__modal">
-                    <div class="image">
-                        <img src="images/donation-thanks.jpg" alt="" srcset="">
-                    </div>
-                    <h5>We Thank You For Donation </h5>
-                    <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                        in reprehenderit in voluptate velit esse. 
-                    </p>
                     <div class="btn-container">
-                        <button id="close-modal">            
-                            Continue
+                        <button id="submit-donation">
+                            <img src="images/donate-icon.svg" alt="" srcset="" />
+                            Donate
                         </button>
+                    </div>
+                    <!-- </div> -->
+                    <div id="success__modal" class="success__modal">
+                        <div class="image">
+                            <img src="images/donation-thanks.jpg" alt="" srcset="">
+                        </div>
+                        <h5>We Thank You For Donation </h5>
+                        <p>Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse. 
+                        </p>
+                        <div class="btn-container">
+                            <button id="close-modal">            
+                                Continue
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </form>
-    </div>
-    <div class="overlay" id="overlay"></div>
+    </section>
     
+    <!-- <div class="overlay" id="overlay"></div> -->
+
     <!-- Footer -->
     <my-footer></my-footer>
-    <script src="/KWLC/script.js"></script>
+    
+    <script src="donate.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
