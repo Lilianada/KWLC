@@ -22,12 +22,22 @@
 
 <body>
     <!-------Header--------->
-    <header>
         <my-header></my-header>
-    </header>
 
     <!-- Main Container -->
     <div class="main_container">
+
+        <section class="hero_banner">
+            <div class="banner_content">
+                <h2>Church Events</h2>
+                <p class="banner_text">
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse. 
+                    Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </section>
+
         <h2 class="section_title">
             Events For 14. 10. 2022
         </h2>
@@ -47,7 +57,7 @@
         </section>
 
         <!-- Container -->
-        <section class="event_list">
+        <section class="event_item">
             <div class="intro">
                 <strong>VIEW AS :</strong>   <h5><span>List</span></h5>      <h5><span>Months</span></h5>        <h5>Day</h5>
             </div>
@@ -58,13 +68,13 @@
 
             <div class="event_list">
                 <div class="list_col grid">
-                    <div class="post_col" style="background: url(images/pexels-luis.png); background-size: cover;">
+                    <div class="post_col" style="background: url(images/weddingImg1.png); background-size: cover;">
                         <h5><span class="content_date">Price: Free</span></h5>
                     </div>
 
                     <div class="list_text">
                         <h3 class="section_subtitle">
-                            Youth Empowerment Program
+                            Wedding Bells
                         </h3>
 
                         <div class="col">
@@ -89,7 +99,7 @@
                         <div class="col">
                             <div class="read_more">
                                 <div class="line_bar"></div>
-                                <h5>Read More</h5>
+                                <a href="wedding.html"><h5>Read More</h5></a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +137,7 @@
                         <div class="col">
                             <div class="read_more">
                                 <div class="line_bar"></div>
-                                <h5>Read More</h5>
+                                <a href="#"><h5>Read More</h5></a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +175,7 @@
                         <div class="col">
                             <div class="read_more">
                                 <div class="line_bar"></div>
-                                <h5>Read More</h5>
+                                <a href="#"><h5>Read More</h5></a>
                             </div>
                         </div>
                     </div>
@@ -177,10 +187,11 @@
         <div class="pages_button">
             <a href="#" class="next"><h5>Next Page</h5></a>
         </div>
+        <!-- Footer -->
+         <my-footer></my-footer>
     </div>
     
-    <!-- Footer -->
-    <my-footer></my-footer>
+    
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="icofont/fontawesome-all.min">
+
+    <style>
+        *,
+        *::before,
+        *::after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: aquamarine;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        li {
+            list-style: none;
+            display: block;
+            padding: .75rem;
+        }
+
+        .header_wrap {
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 6rem;
+            padding: 1rem 2rem;
+            width: 100%;
+            background: sandybrown;
+        }
+
+        .nav_logo {
+            z-index: 2;
+        }
+
+        .nav_menu {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            width: 60%;
+            background: #F1F1F1;
+            left: -1px;
+            padding: 8rem 2rem 0;
+            z-index: 1;
+            display: none;
+            transition: .4s ease-in-out;
+        }
+
+        .show-menu {
+            display: block;
+        }
+
+        .nav_list {
+            position: relative;
+            align-items: baseline;
+        }
+
+        .nav_item {
+            transition: .6s;
+        }
+
+        .nav_link {
+            transition: .3s;
+            cursor: pointer;
+        }
+
+        .dropdown_contents {
+            position: absolute;
+            top: 40px;
+            left: 65px;
+            background: #F1F1F1;
+            padding: 1rem;
+            width: 177px;
+            height: 300px;
+            transition: all .5s ease;
+            box-shadow: 2px 2px 2px 2px #a5a5a588;
+            display: none;
+        }
+
+        .dropdown:hover .dropdown_contents {
+            display: block;
+        }
+
+        .dropdown_menu {
+            border-bottom: 1px rgb(192, 190, 190) solid;
+            cursor: pointer;
+        }
+
+        .nav_tog {
+            padding: 1rem;
+            cursor: pointer;
+            width: 60px;
+        }
+
+        /* 
+        .nav_tog:hover,
+        .nav_tog:focus-within{
+            cursor: pointer;
+        } */
+
+        .nav_toggle {
+            cursor: pointer;
+            width: 35px;
+        }
+
+        .nav_toggle .bar {
+            width: 100%;
+            background: white;
+            height: 4px;
+            margin-bottom: 4px;
+            transition: .3s ease-in-out;
+        }
+
+        .nav_tog .bar {
+            width: 100%;
+            background: black;
+            height: 4px;
+            margin-top: 3px;
+        }
+
+        .change {
+            display: block;
+        }
+
+        .b1 {
+            transform: translateY(0px);
+        }
+
+        .b3 {
+            transform: translateZ(4px);
+        }
+
+        .change #bar2 {
+            opacity: 0;
+        }
+
+        .change #bar1 {
+            transform: translateY(9px) rotate(45deg);
+            background: black;
+        }
+
+        .change #bar3 {
+            transform: translateY(-7px) rotateZ(-45deg);
+            background: black;
+        }
+
+        @media screen and (min-width: 769px) {
+
+            .header_wrap {
+                padding: 1rem;
+                align-items: center;
+            }
+
+            .nav_menu {
+                display: block;
+                position: relative;
+                width: auto;
+                background: none;
+                z-index: 0;
+                padding: 0;
+                left: 0;
+                height: auto;
+                transition: .5s ease;
+            }
+
+            .nav_list {
+                display: inline-flex;
+                position: relative;
+                align-items: center;
+            }
+
+            .nav_list .dropdown_contents {
+                position: absolute;
+                top: 40px;
+                left: 350px;
+                background: #F1F1F1;
+                padding: 1rem;
+                width: 177px;
+                transition: all .5s ease;
+                box-shadow: 2px 2px 2px 2px #a5a5a588;
+                display: none;
+            }
+
+            .nav_toggle {
+                display: none;
+            }
+
+            .nav_tog {
+                padding: 1rem;
+            }
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <header class="header_wrap" id="header">
+        <!-- navigation menu -->
+
+        <a href="#" class="nav_logo"><img src="images/KWLClogo.svg" alt="KWLC Logo"></a>
+
+        <!----------Navigation Links--------->
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="pages.html" class="nav_link">Pages</a></li>
+                <li class="nav_item"><a href="indexDonate.html" class="nav_link">Donations</a></li>
+                <li class="nav_item"><a href="events.html" class="nav_link">Events</a></li>
+                <li class="nav_item"><a href="blog.html" class="nav_link">Blog</a></li>
+                <li class="nav_item"><a href="shop.html" class="nav_link">Shop</a></li>
+                <li class="nav_item"><a href="cart.html" class="nav_link"><i class="icofont-shopping-cart"></i></a></li>
+                <!-------Dropdown menu------->
+                <div class="dropdown">
+                    <div class="nav_tog">
+                        <div class="bar b1" id="bar1"></div>
+                        <div class="bar b2" id="bar2"></div>
+                        <div class="bar b3" id="bar3"></div>
+                    </div>
+                    <ul class="dropdown_contents">
+                        <li class="dropdown_menu"><a href="about.html" class="nav_link">About us</a></li>
+                        <li class="dropdown_menu"><a href="#" class="nav_link">Our Team</a></li>
+                        <li class="dropdown_menu"><a href="#" class="nav_link">Our Beliefs</a></li>
+                        <li class="dropdown_menu"><a href="#" class="nav_link">Our Community</a></li>
+                        <li class="dropdown_menu"><a href="branch.html" class="nav_link">Branches</a></li>
+                        <li class="dropdown_menu"><a href="payment.html" class="nav_link">Payment Page</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <!---------Menu bars-------->
+        <div class="nav_toggle" onclick="onClickMenu()" id="nav-toggle">
+            <div class="bar b1" id="bar1"></div>
+            <div class="bar b2" id="bar2"></div>
+            <div class="bar b3" id="bar3"></div>
+        </div>
+    </header>
+
+    <script>
+        const showMenu = (toggleId, navId) => {
+            const toggle = document.getElementById(toggleId),
+                nav = document.getElementById(navId)
+
+            if (toggle && nav) {
+                nav.classList.toggle('show-menu')
+            }
+        }
+        showMenu('nav-menu', 'nav-toggle')
+
+
+        // Toggle from straight to cross
+        function onClickMenu() {
+            showMenu('nav-toggle', 'nav-menu')
+            document.getElementById("nav-toggle").classList.toggle("change")
+        }
+
+    </script>
+</body>
+
+</html>
