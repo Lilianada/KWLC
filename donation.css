@@ -764,7 +764,7 @@ hr{
 }
 
 .content-container .col{
-    width: 40%;
+    width: 90%;
 }
 
 .content .content-container h5 {
@@ -809,7 +809,6 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
-
     .col{ 
         width: 90%;
         margin: 1rem 0;
@@ -817,14 +816,20 @@ hr{
 }
 
 @media screen and (max-width: 450px) {
-    
     .hero-banner-area .hero-banner-area-text span::after {
         width: 170%;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .content-container .col{
+        width: 45%;
+    }
+}
 
-/* payment page */
+
+/* ----------payment page --------*/
+/* ----------------------------- */
 
 .payment .hero-banner-area {
     height: 100vh;
