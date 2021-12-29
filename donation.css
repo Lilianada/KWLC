@@ -706,7 +706,7 @@ hr{
 
 .content {
     width: 90%;
-    margin: auto;
+    margin: 1rem auto;
     margin-bottom: 3rem;
 }
 
@@ -1282,9 +1282,9 @@ hr{
 
 
 /* content section */
-.content{
+/* .content{
     width: 100%;
-}
+} */
 
 .content .grid {
     display: grid;
