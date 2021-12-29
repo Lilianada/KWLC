@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Style links -->
-    <link rel="stylesheet" href="donation.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- iconfont -->
     <link rel="stylesheet" href="icofont/icofont.min.css" />
@@ -25,115 +25,108 @@
     <!-- Header -->
         <my-header></my-header>
 
-        <div class="hero-banner-area">
-            <img src="images/branches-hero-image.jpg" alt="" />
-            <div class="hero-banner-area-text">
-                <h2>Our branches spread out through major cities in Nigeria</h2>
-            </div>
+        <div class="main_container">
+            <section class="hero_wrapper">
+                <div class="banner_content">
+                    <h1>
+                        Our branches spread out through major cities in Nigeria
+                    </h1>
+                </div>
+            </section>
+
+            <section class="search_wrapper">
+                <h3 class="section_subtitle">City</h3>
+
+                <div class="location_search">
+                    <input class="event_searcher" type="search" name="search" id="search">
+                    <a href="#" class="button">Search</a>
+                </div>
+                <span class="grey_text">
+                    <p>Search for branches near you </p>
+                </span>
+            </section>
+
+            <!--  -->
+            <section class="locate_wrapper">
+                <h2>
+                   <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                   Lagos
+                </h2>
+                <hr>
+            </section>
+
+            <!--  -->
+            <section class="branch_wrapper">
+                <span><h5>Branches in Lagos</h5></span>
+
+                <div class="branch_box">
+                    <div class="branch_card">
+                        <div class="col">
+                            <h4>Kingdom ways (Ikeja)</h4>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London, Lagos</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am <i class="fa fa-circle" aria-hidden="true"></i> 11:00 am  -  1:30 pm</p> 
+                        </div>
+                        <div class="col">
+                            <div class="see_more">
+                                <div class="line_bar"></div>
+                                <a href="eachBranch.html"><h5>See More</h5></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="branch_card">
+                        <div class="col">
+                            <h4>Kingdom ways (Lekki)</h4>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London, Lagos</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am <i class="fa fa-circle" aria-hidden="true"></i> 11:00 am  -  1:30 pm</p> 
+                        </div>
+                        <div class="col">
+                            <div class="see_more">
+                                <div class="line_bar"></div>
+                                <a href="eachBranch.html"><h5>See More</h5></a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="branch_card">
+                        <div class="col">
+                            <h4>Kingdom ways (Aja)</h4>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                            <p>24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London, Lagos</p>
+                        </div>
+                        <div class="col">
+                            <span><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                            <p>8:00 am  -  10:30 am <i class="fa fa-circle" aria-hidden="true"></i> 11:00 am  -  1:30 pm</p> 
+                        </div>
+                        <div class="col">
+                            <div class="see_more">
+                                <div class="line_bar"></div>
+                                <a href="eachBranch.html"><h5>See More</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!-- FOOTER -->
+            <my-footer></my-footer>
         </div>
-        <section class="hero-content">
-            <h3>City</h3>
-            <form action="">
-                <div class="row">
-                    <input type="text" name="location" id="location" placeholder="Lagos" />
-                    <button type="submit">Search</button>
-                </div>
-                <p>Search for branches near you</p>
-            </form>
-        </section>
-
-    <section class="content">
-        <div class="row align-center">
-            <div class="image">
-                <img src="images/spot-pin.jpg" alt="" />
-            </div>
-            <h3>Lagos</h3>
-        </div>
-        <p class="blue-color">Branches in lagos</p>
-        <div class="row flex-wrap location">
-            <div class="col">
-                <h4>Kingdom ways (ikeja)</h4>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-1.svg" alt="" srcset="" />
-                    </div>
-                    <span>
-                        24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande
-                        Bus Stop, Ikeja, Lagos
-                    </span>
-                    <!-- <p>
-                        24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Ikeja, Lagos
-                    </p> -->
-                </div>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-2.svg" alt="" srcset="" />
-                    </div>
-
-                    <span>8:00 am - 10:30 am
-                        <ul>
-                            <li>11:00 am - 1:30 pm</li>
-                        </ul>
-                    </span>
-                </div>
-                <a href="eachBranch.html">See More</a>
-            </div>
-
-            <div class="col">
-                <h4>Kingdom ways (Lekki)</h4>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-1.svg" alt="" srcset="" />
-                    </div>
-                    <p>
-                        24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Osapa London,Lagos
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-2.svg" alt="" srcset="" />
-                    </div>
-                    <span>8:00 am - 10:30 am
-                        <ul>
-                            <li>11:00 am - 1:30 pm</li>
-                        </ul>
-                    </span>
-                </div>
-                <a href="eachBranch.html">See More</a>
-            </div>
-
-            <div class="col">
-                <h4>Kingdom ways (Aja)</h4>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-1.svg" alt="" srcset="" />
-                    </div>
-                    <p>
-                        24 Prince Ibrahim Eletu Avenue, Shoprite Circle Mall Road Jakande Bus Stop, Ikeja, Lagos
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="image">
-                        <img src="images/list-icon-2.svg" alt="" srcset="" />
-                    </div>
-                    <span>8:00 am - 10:30 am
-                        <ul>
-                            <li>11:00 am - 1:30 pm</li>
-                        </ul>
-                    </span>
-                </div>
-                <a href="eachBranch.html">See More</a>
-            </div>
-        </div>
-    </section>
-
-    <my-footer></my-footer>
+    
     <script src="script.js"></script>
 </body>
 

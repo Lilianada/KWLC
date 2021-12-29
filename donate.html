@@ -36,7 +36,7 @@
     </div>
 
     <section class="content">
-        <div class="row">
+        <div class="grid">
             <div class="col image">
                 <img src="images/church-building-large.jpg" alt="" srcset="" />
             </div>
@@ -44,17 +44,18 @@
                 <h3>Church building project</h3>
                 <p>
                     Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat.
-                    <br /><br /> Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    <br /> <br />
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse. Dolor sit amet, consectetur adipiscing elit, sed do eiusmo tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="btn-container">
                     <button class="button" id="donate">
-                        <img src="images/donate-icon.svg" alt="" srcset="" />
+                        <i class="fa fa-gift" aria-hidden="true"></i>
                         Donate
                     </button>
-                    <button>Share</button>
+                    <button class="btn">Share</button>
                 </div>
             </div>
         </div>
@@ -70,40 +71,40 @@
         </div>
     </section>
 
-    <section>
+    <section class="latest_container">
         <h3>LATEST DONATION</h3>
-        <div class="row justify-space-between latest-donation">
-            <div class="col row">
+        <div class="latest_donation">
+            <div class="latest_card">
                 <div class="image">
                     <img src="images/build-church-schools.jpg" alt="" srcset="" />
                 </div>
-                <div class="project-content">
-                    <h5>Build church school</h5>
+                <div class="project_content">
+                    <h3>Build church school</h3>
                     <div class="row">
-                        <h6>Target:</h6>
-                        <span>N 23,000,000</span>
+                        <h4>Target:</h4>
+                        <span><p>N 23,000,000</p></span>
                     </div>
 
                     <div class="row">
-                        <h6>Raised:</h6>
-                        <span>N 130,000</span>
+                        <h4>Raised:</h4>
+                        <span><p>N 130,000</p></span>
                     </div>
                 </div>
             </div>
-            <div class="col row">
+            <div class="latest_card">
                 <div class="image">
                     <img src="images/build-church-schools.jpg" alt="" srcset="" />
                 </div>
-                <div class="project-content">
-                    <h5>Build church school</h5>
+                <div class="project_content">
+                    <h3>Build church school</h3>
                     <div class="row">
-                        <h6>Target:</h6>
-                        <span>N 23,000,000</span>
+                        <h4>Target:</h4>
+                        <span><p>N 23,000,000</p></span>
                     </div>
 
                     <div class="row">
-                        <h6>Raised:</h6>
-                        <span>N 130,000</span>
+                        <h4>Raised:</h4>
+                        <span><p>N 130,000</p></span>
                     </div>
                 </div>
             </div>
@@ -167,11 +168,12 @@
                         </div>
                     </div>
                     <div class="btn-container">
-                        <button id="submit-donation">
-                            <img src="images/donate-icon.svg" alt="" srcset="" />
+                        <button id="submit-donation" class="button">
+                            <i class="fa fa-gift" aria-hidden="true"></i>
                             Donate
                         </button>
                     </div>
+
                     <!-- </div> -->
                     <div id="success__modal" class="success__modal">
                         <div class="image">

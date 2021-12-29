@@ -4,7 +4,7 @@ const closeBtn = document.getElementById('close');
 const closeBtnModal = document.getElementById('close-modal');
 const modal = document.getElementById('modal');
 const overlay = document.getElementById('overlay');
-const successModal = document.getElementById('success__mod  al');
+const successModal = document.getElementById('success__modal');
 const submitDonation = document.getElementById('submit-donation');
 const mainContent = document.getElementById('main-content');
 
