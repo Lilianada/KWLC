@@ -1,19 +1,11 @@
 /*========================================*/
-
-
 /*------------ [Google_Font] -----------*/
-
-
 /*========================================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 /*========================================*/
-
-
-/*------------ [_Root] bde0feff-------FFC368----*/
-
-
+/*------------ [_Root] -------------------*/
 /*========================================*/
 
 :root {
@@ -25,6 +17,7 @@
     --card-primary-color: #77b6d5;
     --card-secondary-color: #0f5545;
     --white-color: #fff;
+
     /* Font and Typography */
     --font-family-1: 'Open Sans', sans-serif;
     --font-family-2: 'Roboto', sans-serif;
@@ -1390,14 +1383,17 @@ hr{
 .donate .modal {
     position: fixed;
     width: 40%;
-    top: 40%;
+    top: 50%;
     left: 50%;
+    height: 90%;
+    overflow-y: scroll;
     transform: translate(-50%, -50%);
     background: #fff;
     color: #000;
     padding: 2rem 3rem;
     z-index: 4;
     display: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.151);
 }
 
 .donate .modal .payment {
@@ -1577,6 +1573,15 @@ hr{
     line-height: 27px;
     text-align: center;
     color: #6c6c6c;
+}
+
+/* .row .mt-2{
+    justify-content: flex-start;
+} */
+
+.success__modal .btn-container .button{
+    margin-right: 0%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
